@@ -1,11 +1,12 @@
 site:
   title: Illumination Engine Documentation
-  start-page: ROOT:index.adoc
+  start-page: DocsDocs:ROOT:index.adoc
   robots: allow
 content:
   sources:
     - url: https://github.com/PercentBoat4164/Illumination-Engine-Documentation.git
-      start-path: docs/
+      start_path: docs/
+      branches: HEAD
       edit_url: '{web_url}/docs/{refname}/{path}'
 ui:
   bundle:
