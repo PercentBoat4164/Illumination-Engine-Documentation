@@ -1,0 +1,14 @@
+site:
+  title: Illumination Engine Documentation Docs
+  start-page: ROOT::index.adoc
+  robots: allow
+content:
+  sources:
+    - url: ..
+      start-path: docs/
+      edit_url: '{web_url}/local/docs/{refname}/{path}'
+      branches: HEAD
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

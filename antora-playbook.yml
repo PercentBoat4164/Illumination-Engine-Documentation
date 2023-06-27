@@ -1,0 +1,13 @@
+site:
+  title: Illumination Engine Documentation
+  start-page: ROOT:index.adoc
+  robots: allow
+content:
+  sources:
+    - url: https://github.com/PercentBoat4164/Illumination-Engine-Documentation.git
+      start-path: docs/
+      edit_url: '{web_url}/docs/{refname}/{path}'
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
