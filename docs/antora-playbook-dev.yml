@@ -1,6 +1,6 @@
 site:
   title: (LOCAL) Illumination Engine Documentation
-  start_page: Docs:ROOT:index.adoc
+  start_page: DocsHome:ROOT:index.adoc
   robots: allow
 content:
   sources:
