@@ -1,12 +1,12 @@
 site:
-  title: Illumination Engine Documentation Docs
-  start_page: DocsDocs:ROOT:index.adoc
+  title: (LOCAL) Illumination Engine Docs
+  start_page: DocsRepo:ROOT:index.adoc
   robots: allow
 content:
   sources:
     - url: ..
       start_path: docs/
-      edit_url: '{web_url}/local/docs/{refname}/{path}'
+      edit_url: '{web_url}/localdocs/{path}'
       branches: HEAD
 ui:
   bundle:
