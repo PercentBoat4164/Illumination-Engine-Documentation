@@ -1,6 +1,6 @@
 site:
   title: Illumination Engine Documentation
-  start-page: DocsRepo:ROOT:index.adoc
+  start_page: Docs:ROOT:index.adoc
   robots: allow
 content:
   sources:
