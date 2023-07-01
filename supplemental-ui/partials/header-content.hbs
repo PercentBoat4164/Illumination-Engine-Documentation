@@ -1,0 +1,37 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <a href={{site.url}}>Illumination</a>
+        <span class="separator">//</span>
+        <a href="{{or site.url (or siteRootUrl siteRootPath)}}">Documentation</a>
+      </div>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">Docs Pages</div>
+          <div class="navbar-dropdown is-right">
+            <a class="navbar-item has-label" href="https://example.org">Engine Docs</a>
+            <a class="navbar-item has-label" href="https://example.org">Multiplayer Docs</a>
+            <a class="navbar-item has-label" href="https://example.org">Documentation Docs</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-link">Repositories</div>
+          <div class="navbar-dropdown is-right">
+            <a class="navbar-item has-label" href="https://example.org">Engine Repo</a>
+            <a class="navbar-item has-label" href="https://example.org">Multiplayer Repo</a>
+            <a class="navbar-item" href="https://example.org">Documentation Repo</a>
+          </div>
+        </div>
+        <a class="navbar-item" href="https://example.org">Internal Documentation</a>
+      </div>
+    </div>
+  </nav>
+</header>

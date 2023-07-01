@@ -1,1 +1,2 @@
-* Illumination Documentation
+* xref:index.adoc[Welcome]
+* xref:about.adoc[About]

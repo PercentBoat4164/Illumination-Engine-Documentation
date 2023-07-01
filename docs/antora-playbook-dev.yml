@@ -1,14 +1,15 @@
 site:
-  title: (LOCAL) Illumination Engine Documentation
-  start_page: DocsHome:ROOT:index.adoc
+  title: (DEV) Illumination Engine Documentation
+  start_page: Documentation:ROOT:index.adoc
   robots: allow
 content:
   sources:
     - url: ..
       start_path: docs/
-      edit_url: '{web_url}/localdocs/{path}'
       branches: HEAD
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  # This is the only Documentation Development Environment that Contains Changes to UI
+  supplemental_files: ../supplemental-ui

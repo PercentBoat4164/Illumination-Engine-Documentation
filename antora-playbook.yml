@@ -1,14 +1,16 @@
 site:
   title: Illumination Engine Documentation
-  start_page: DocsHome:ROOT:index.adoc
+  start_page: Documentation:ROOT:index.adoc
   robots: allow
 content:
   sources:
     - url: https://github.com/PercentBoat4164/Illumination-Engine-Documentation.git
       start_path: docs/
-      edit_url: '{web_url}/{refname}/{path}'
       branches: HEAD
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  # Supplemental UI changes small parts of the default Antora UI
+  # Larger UI changes will likely require a complete UI rewrite
+  supplemental_files: supplemental-ui
